@@ -15,7 +15,7 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_worker
+      - image: wenchangshou/examplevotingapp_worker
         name: worker-e2e
         resources:
           limits:
